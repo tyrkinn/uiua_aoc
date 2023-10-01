@@ -1,4 +1,4 @@
-const { readFileSync } = require('fs')
+import { readFileSync } from 'fs'
 const data = readFileSync('./input.txt')
 
 Object.defineProperty(Array.prototype, 'chunk', {
